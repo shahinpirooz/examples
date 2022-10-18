@@ -34,7 +34,7 @@ class SignalWakeupHandler:
         self.old_fd = None
         # Create a socket pair
         self.wsock, self.rsock = socketpair(type=SOCK_DGRAM)
-        self.socket = QAbstractSocket(QAbstractSocket.UdpSocket, app)
+        self.socket = QAbstractSocket(QAbstractSocket.SocketType.UdpSocket, app)
         # Let Qt listen on the one end
         self.socket.setSocketDescriptor(self.rsock.fileno())
         # And let Python write on the other end

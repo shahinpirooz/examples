@@ -1,10 +1,10 @@
 #!C:\Users\shahi\Projects\scripts\py\pyqt\examples\venv\Scripts\python.exe
-# EASY-INSTALL-ENTRY-SCRIPT: 'fbs==1.1.4','console_scripts','fbs'
+# EASY-INSTALL-ENTRY-SCRIPT: 'fbs==1.1.5','console_scripts','fbs'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'fbs==1.1.4'
+__requires__ = 'fbs==1.1.5'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('fbs==1.1.4', 'console_scripts', 'fbs')())
+    sys.exit(load_entry_point('fbs==1.1.5', 'console_scripts', 'fbs')())

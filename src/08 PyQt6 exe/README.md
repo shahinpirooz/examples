@@ -17,7 +17,7 @@ Further down, we instantiate it:
     appctxt = ApplicationContext()
 
 We no longer need to create a `QApplication`. This is done automatically by fbs.
-
+ 
 The editor's _About_ dialog shows an icon:
 
 ![QDialog example](../screenshots/qdialog-example.png)
