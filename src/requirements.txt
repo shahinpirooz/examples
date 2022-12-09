@@ -1,3 +1,4 @@
 fbs
 PyQt6
+pyqt5-tools
 requests

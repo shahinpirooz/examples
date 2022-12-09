@@ -16,7 +16,7 @@ REM PyQt6
 REM requests
 
 REM Now execute the following to install the necessary dependencies:
-pip install -Ur src/requirements.txt
+python -m pip install -Ur src/requirements.txt
 
 REM Once you have done this, use cd to navigate to the example you're interested in in the src/ folder. For example:
 REM cd "src/01 PyQt QLabel"
